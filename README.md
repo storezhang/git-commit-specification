@@ -101,9 +101,9 @@ feat(XXX-1234): 项目初始化
 如果一个项目完成使用上述提交规范来提交的代码的话，那么生成`Changelog`将变得十分容易且美观
 ![Changelog](assert/changelog.png)
 
-`Changelog`的生成方式有很多，都是基于提交日志，只是，在不同的语言中，有约定俗成的生成工具（或者叫最佳实践）
+`Changelog`的生成方式有很多，都是基于提交日志，有很多方法可以生成`Changelog`，下面列出几种以供参考
 
-## Nodejs
+## conventional-changelog
 [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)可以很方便的生成`Changelog`，基本命令
 ```shell
 npm install -g commitizen
