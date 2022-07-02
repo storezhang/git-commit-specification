@@ -97,6 +97,7 @@ feat(XXX-1234): 项目初始化
 那么在Git提交时，我们可以在`foot`区域关联本次提交涉及的`Issue`
 
 # Changelog
+
 `Changelog`描述的是`变化`，而这个变化可以是任何文字，但是在如果能基于代码的提供日志来生成`Changelog`的话，那这个事情将变得有趣起来。
 如果一个项目完成使用上述提交规范来提交的代码的话，那么生成`Changelog`将变得十分容易且美观
 ![Changelog](assert/changelog.png)
@@ -104,11 +105,23 @@ feat(XXX-1234): 项目初始化
 `Changelog`的生成方式有很多，都是基于提交日志，有很多方法可以生成`Changelog`，下面列出几种以供参考
 
 ## conventional-changelog
+
 [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)可以很方便的生成`Changelog`，基本命令
+
 ```shell
 npm install -g commitizen
 commitizen init cz-conventional-changelog --save-dev --save-exact
 ```
+
+## git-chglog
+
+`git-chglog`相对来说更使用方式更为灵活一点（功能性扩展性都要强一些），普通使用命令是
+
+```shell
+git-chglog 1.0.0..2.0.0
+```
+
+更详细的命令方法请参考[官方文档](https://github.com/git-chglog/git-chglog)
 
 # 相关工具
 
