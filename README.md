@@ -35,10 +35,10 @@ git commit -m "feat(项目): 项目初始化"
 所有的`Commit Message`必须满足如下格式
 
 ```
-<type><scope>:空格<subject>
-# 空行
+<type><scope>:<空格><subject>
+<空行>
 [optional body]
-# 空行
+<空行>
 [optional footer]
 ```
 
