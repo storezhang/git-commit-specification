@@ -97,7 +97,9 @@ feat(XXX-1234): 项目初始化
 那么在Git提交时，我们可以在`foot`区域关联本次提交涉及的`Issue`
 
 # 不可提交的文件
+
 `Git`工具本身并不限制你的提交内容，但是在开发中，有一些文件不能被提交的，包括但不限于
+
 - 日志文件
 - 项目编译可执行程序
 - 相关的库文件（C++除外，因为至今没有依赖管理系统）
@@ -115,7 +117,8 @@ feat(XXX-1234): 项目初始化
 
 ## conventional-changelog
 
-[conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)可以很方便的生成`Changelog`，基本命令
+[conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)可以很方便的生成`Changelog`
+，基本命令
 
 ```shell
 npm install -g commitizen
